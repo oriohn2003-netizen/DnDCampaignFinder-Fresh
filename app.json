@@ -2,7 +2,7 @@
   "expo": {
     "name": "D&D Campaign Finder",
     "slug": "dndfinder",
-    "version": "2.1.0",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -31,9 +31,6 @@
       "eas": {
         "projectId": "176301cf-a17c-4706-bff3-5c99594d8c94"
       }
-    },
-    "cli": {
-      "appVersionSource": "local"
     },
     "plugins": []
   }
