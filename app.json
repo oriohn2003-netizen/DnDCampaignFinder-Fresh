@@ -1,33 +1,37 @@
 {
   "expo": {
     "name": "D&D Campaign Finder",
-    "slug": "dndfinder",
-    "version": "1.0.0",
+    "slug": "dnd-campaign-finder-v2",
+    "version": "2.1.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "newArchEnabled": true,
     "splash": {
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#1a1a1a"
+      "backgroundColor": "#dc2626"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dndcampaignfinder.app",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#1a1a1a"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#dc2626"
       },
-      "package": "com.dndcampaignfinder.fresh"
+      "package": "com.dndcampaignfinder.mobile",
+      "versionCode": 21,
+      "edgeToEdgeEnabled": true
     },
     "extra": {
       "eas": {
         "projectId": "176301cf-a17c-4706-bff3-5c99594d8c94"
       }
     },
-    "cli": {
-      "appVersionSource": "local"
-    }
+    "plugins": []
   }
 }
