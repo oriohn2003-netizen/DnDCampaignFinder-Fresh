@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "D&D Campaign Finder",
-    "slug": "dnd-campaign-finder-v2",
+    "slug": "dndfinder",
     "version": "2.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
