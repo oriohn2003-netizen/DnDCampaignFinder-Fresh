@@ -20,6 +20,11 @@
         "backgroundColor": "#1a1a1a"
       },
       "package": "com.dndcampaignfinder.fresh"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "176301cf"
+      }
     }
   }
 }
