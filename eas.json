@@ -16,7 +16,7 @@
     "production": {
       "android": {
         "buildType": "apk",
-        "credentialsSource": "auto"
+        "credentialsSource": "remote"
       },
       "env": {
         "EAS_SKIP_AUTO_FINGERPRINT": "1"
